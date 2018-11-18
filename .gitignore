@@ -10,6 +10,7 @@
 
 # production
 /build
+vine2.zip
 
 # misc
 .DS_Store

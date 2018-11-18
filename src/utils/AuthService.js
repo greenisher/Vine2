@@ -4,11 +4,11 @@ import auth0 from 'auth0-js';
 const ID_TOKEN_KEY = 'id_token';
 const ACCESS_TOKEN_KEY = 'access_token';
 
-const CLIENT_ID = 'EeobY3jxsMoFREmqfmsZwAALQb73WeWm';
-const CLIENT_DOMAIN = 'unicoder.auth0.com';
+const CLIENT_ID = 'j2mW0WEoU4SB4nQ74pDlL26Q7r1STQMA';
+const CLIENT_DOMAIN = 'vine2.eu.auth0.com';
 const REDIRECT = 'http://localhost:3000/callback';
 const SCOPE = 'full:access';
-const AUDIENCE = 'http://miniflix.com';
+const AUDIENCE = 'http://vine2.com';
 
 var auth = new auth0.WebAuth({
   clientID: CLIENT_ID,
