@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { login, logout, isLoggedIn } from '../utils/AuthService';
+import { login, logout } from '../Auth/Auth';
+import { isLoggedIn } from '../utils/AuthService';
 import '../App.css';
 import '../bootstrap.css';
 
